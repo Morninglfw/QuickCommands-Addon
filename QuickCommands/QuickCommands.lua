@@ -9,7 +9,7 @@ end
 -- slash command for keybinds
 SLASH_kb1 = "/kb"
 SlashCmdList['kb'] = function()
-    ShowUIPanel(QuickKeybindFrame)
+    SettingsPanel:OpenToCategory(Settings.KEYBINDINGS_CATEGORY_ID)
 end
  -- function to reload UI
 function FReloadUI()
